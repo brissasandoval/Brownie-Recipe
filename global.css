@@ -1,0 +1,40 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+ }
+ 
+ 
+body {
+    background-color: darkgray;
+    color: rgb(33, 55, 55);
+    line-height: 1.5;
+}
+
+.wrapper{
+    background-color: rgb(119, 138, 147);
+    border: thick solid black;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px;
+    max-width: 1000px;
+}
+
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    font-style: italic;/* normal, italic, oblique (slanted) */
+    font-weight: normal; /* 100-900, normal (400), bold (700) */
+    margin-top: 0;
+    text-align: auto;
+    /*left, right, center, and justify*/
+    text-transform: uppercase; /* normal, capitalize, uppercase, lowercase */
+    letter-spacing: 1px;
+
+}
+
+nav ul{
+    font-weight: bold;
+}
+
+
+
+ 
